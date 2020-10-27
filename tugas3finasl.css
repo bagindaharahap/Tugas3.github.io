@@ -1,0 +1,83 @@
+@font-face{
+    font-family:Candybeans;
+    src: url(Candy\ Beans.otf);
+}
+
+body{
+    background-image:url("waa70ud.jpg");
+}
+
+.h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    
+}
+
+.spanh1{
+    color: yellow;
+}
+
+.P1{
+    font-family: Candybeans;
+    top:18%;
+    color: white;
+    font-size: 30px;
+    left: 75%;
+    position: absolute;
+    
+}
+
+
+.form{
+    position: absolute;
+    background-color: darksalmon;
+    left: 35%;
+    top: 30%;
+    width: 350px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.form .input-group{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form .input-group input{
+    height: 50px;
+    width: 80%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    font-size: 20px;
+}
+.form .button-group{
+    position: relative;
+    width: 100%;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.form .button-group input{
+    height: 30px;
+    width: 20%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    font-size: 20px;
+    cursor: "pointer";
+    background-color: white;
+    color: black;
+}
+.form .button-group input:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+}
